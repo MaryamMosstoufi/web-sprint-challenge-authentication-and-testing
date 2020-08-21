@@ -25,13 +25,13 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Differences between using _sessions_ or _JSON Web Tokens_ for authentication.
-
+Sessions are used with cookies but JWT does not point to any data on the server, it contains the data itself.
 2. What does `bcrypt` do to help us store passwords in a secure manner.
-
+It hashes it. 
 3. How are unit tests different from integration and end-to-end testing.
-
+Unit test, test each module in isolation without interactions and dependencies, integration tests check if all modules work fine together and end to end testing check for every element and the entire workflow.
 4. How _Test Driven Development_ changes the way we write applications and tests.
-
+We can resolve issues before deploy and it allows us to give out more stable code and software.
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
 ## Instructions
